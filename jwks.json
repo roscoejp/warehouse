@@ -1,11 +1,1 @@
-{
-    "keys": [
-        {
-            "kty": "oct",
-            "use": "enc",
-            "kid": "javainuse-secret-key",
-            "k": "bMXXU-wppt_YBBR77oLctrdhU7rmeYPBS8E_p0md5NLo9f4I18tfUz2Agl5dQQyStYRdWs66Lb7S30qz4RprczyF9aorc4A_uv9jlK7g3FVfS2rG9mKM61PmqVwI2Koxf9hSTI0nTHSH2Usv1hAI5jEFrB3foSV83Nu-HUzgosUd-2XSnlTLa8s1__n9nzowt7yf25ZJGW5DFOrmHvbPzjuUPcelfvGIAbmfcxdPeQn9qta__fH4T82c6DCABMacetodubKhvwd6_VydkMihYx_5sRWahZOGFbiC9K6hOK_HPGxyZA-OBGGjl80QmpdEcdUSN7g3RxYGCUq3MlTSfA",
-            "alg": "dir"
-        }
-    ]
-}
+MC1kemJtamVNMGVkZDRBeGJiZ1pJSjJqd2l2NlhQaWYyQXRWVmM4MVBISnZTQkhENjNyN254ak8xaTU0UjZzbWR4Z1BtWHhDcTNqc3FzSm1Td0dndjZWYWxhUlp6aWYyakNaTXkwcW5XZ2s3WFFoazlpWVhpdkhyRTg5TnNUNUhURkNxVzE2T2t3TExXVnc1NkZOTnJ6clVXNEdGU3l4RUpZQlB0eGZLSGMwbWxldmFmMmdhT3FOMFR4RU9mNk9YeXl0YnVMLVpGS25YTHhoMWpFUlZvWUt3cFNEUTREWXd2bFZsMWFyX1l0VnFjSFpUOTBvcEJ1d3VDUVVlZlo0RGstTlVoVmI3NklOeTRPQmdVamwtcGlXT1FwazVfM0Y1anA5bWVMVkZ1WFpNckRnMFVuQWx3bmt6anBMcWsxTTZEb3BVMkMybjIzXzdSWTZJZ2JubnhR
