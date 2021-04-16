@@ -1,0 +1,11 @@
+{
+    "keys": [
+        {
+            "kty": "oct",
+            "use": "enc",
+            "kid": "javainuse-secret-key",
+            "k": "bMXXU-wppt_YBBR77oLctrdhU7rmeYPBS8E_p0md5NLo9f4I18tfUz2Agl5dQQyStYRdWs66Lb7S30qz4RprczyF9aorc4A_uv9jlK7g3FVfS2rG9mKM61PmqVwI2Koxf9hSTI0nTHSH2Usv1hAI5jEFrB3foSV83Nu-HUzgosUd-2XSnlTLa8s1__n9nzowt7yf25ZJGW5DFOrmHvbPzjuUPcelfvGIAbmfcxdPeQn9qta__fH4T82c6DCABMacetodubKhvwd6_VydkMihYx_5sRWahZOGFbiC9K6hOK_HPGxyZA-OBGGjl80QmpdEcdUSN7g3RxYGCUq3MlTSfA",
+            "alg": "dir"
+        }
+    ]
+}
