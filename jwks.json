@@ -1,10 +1,10 @@
 {
   "keys": [
-    {
+{
     "kty": "RSA",
     "e": "AQAB",
-    "kid": "javainuse-secret-key",
-    "n": "iYDe9jVafLw-fhFN7IV7zviaREf4pLhmRuHaCi5dtCEiCMJl2blKKTUKipX3ii214JOgWnDZdrD_QIEBTL9rpRCPOpevk3nOJu1QB_gW9zJw4N6Qfzq4tFhUhNbxTfrn3LKIEx1ODabz5x0pIgkgeaCqweN48ERq_z2m_kPv1Bg9RWrxoyKehQoCQ5be_yUU4HeU4uLRwGTc8a1EGEXbOcEuWKdRM4j9isouMLc1s3g9oKFqnuWEkezhiIq4pT8uDVMt_w4VEv9cEeKPYJkPwqPhQN5b5G4LpXoXWrhkf1Qp5liHePdFpAcLVxoclsSvtTGOSUL8eY1dGPS5-qut_Q"
-    }
+    "kid": "QZMAH8WJ2ASqwflbFcgU-77FtwGTT6NyzML332S3vpY",
+    "n": "uyw2X9eiXb2-WA-S3gREXtZ-rQFt_2GAKOTLmAEfa5hLYrOCvYWOi6l5ghOyQ3f53p5kzgLOqmGW3rMpw-U-1Yt7-dcU_ccwD923MW9wFZCxCcpl9YgCkm9HLeXeEMpdjWlHZvMoeq67uWkJExRXCOcgcdKkwi8FYytJ1hibPnGPbkWvWZsJnCbDjNnBQWq9lhD6rzt_amMJS-yIz_Mg7IPVKcSvtlxz_1eeuTHwY1kmv_QAs17k_sR56TMcfeOio42ymr-3z18VSk5CIp9mAZtkL9kXYgkAcvuFN4KNswxBxgrQ-trI0METnldc5p_xsxFu33jbi-6YAq5tEhpFKQ"
+}
   ]
 }
