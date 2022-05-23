@@ -3,7 +3,7 @@
 """Google Cloud Speech API sample application using the REST API for batch
 processing.
 Example usage:
-    python transcribe_async_gcs.py gs://cloud-samples-tests/speech/brooklyn.flac gs://workspace-output/brooklyn.flac
+    python transcribe_async_gcs.py gs://furious-curie-input/brooklyn.flac gs://furious-curie-output/brooklyn.json
 """
 
 import argparse
@@ -80,7 +80,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description=__doc__, formatter_class = argparse.RawDescriptionHelpFormatter
     )
-    parser.add_argument("--path_in", help = "GCS path for audio file to be recognized", default = "gs://rpyell-test-taoslab-speech-to-text/workspace/input.flac")
-    parser.add_argument("--path_out", help = "GCS path for output", default = "gs://rpyell-test-taoslab-speech-to-text/output/output")
+    parser.add_argument("--path_in", help = "GCS path for audio file to be recognized", default = "gs://furious-curie-input/vr.flac")
+    parser.add_argument("--path_out", help = "GCS path for output", default = "gs://furious-curie-output/vr.json")
     args = parser.parse_args()
     transcribe_to_gcs(args.path_in, args.path_out)
