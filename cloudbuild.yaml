@@ -8,4 +8,5 @@ steps:
       ls -al
 
 options:
+  automapSubstitutions: true
   substitution_option: "ALLOW_LOOSE"
