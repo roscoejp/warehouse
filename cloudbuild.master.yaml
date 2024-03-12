@@ -1,0 +1,17 @@
+# Run with: gcloud builds submit --no-source --config cloudbuild.yaml --substitutions "_FOO=bar"
+steps:
+  - name: gcr.io/cloud-builders/gcloud
+    script: |
+      #!/usr/bin/env bash
+      typeset -p | awk '$3 ~ /^_[A-Z0-9][A-Z0-9_]+/ { print $3 }' | paste -s -d, -
+      git clone "https://github.com/roscoejp/warehouse" ./
+      # gcloud builds submit actually blocks until the build is complete
+      gcloud builds submit "https://github.com/roscoejp/warehouse" \
+        --git-source-revision main \
+        --config cloudbuild.yaml  \
+        --project rpyell-test-taoslab \
+        --substitutions $(typeset -p | awk '$3 ~ /^_[A-Z0-9][A-Z0-9_]+/ { print $3 }' | paste -s -d, -)
+
+options:
+  automapSubstitutions: true
+  substitution_option: "ALLOW_LOOSE"
