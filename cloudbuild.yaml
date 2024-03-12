@@ -1,8 +1,8 @@
 steps:
   - id: Test
-  name: gcr.io/cloud-builders/gcloud
-  script: |
-    #!/usr/bin/env bash
-    echo "$_FOO"
-    echo "$(pwd)"
-    ls -al
+    name: gcr.io/cloud-builders/gcloud
+    script: |
+      #!/usr/bin/env bash
+      echo "$_FOO"
+      echo "$(pwd)"
+      ls -al
