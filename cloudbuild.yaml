@@ -6,3 +6,6 @@ steps:
       echo "$_FOO"
       echo "$(pwd)"
       ls -al
+
+options:
+  substitution_option: "ALLOW_LOOSE"
